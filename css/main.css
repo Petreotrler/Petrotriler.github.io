@@ -19,32 +19,31 @@ a{
 }
 
 img{
-    max-width: 100%;
+    max-width: 100 %;
 }
 
 .wrapper{
- background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,38,11,1) 41%, rgba(74,40,0,1) 100%, rgba(0,0,0,1) 100%);
-     width: 100%;
+ background: linear-gradient (90 deg, rgba (2,0,36,1) 0 %, rgba (74,38,11,1) 41 %, rgba (74,40,0,1) 100 %, rgba (0,0,0,1) 100 %);
+     width: 100 %;
      overflow-x:hidden ;
 
 }
 
-.container {
-    max-width: 1200px; 
-    width: 90%; 
-    margin: 0 auto;
-}
+.container{
+ width: 1800 px;
+ margin: 0 auto;
 
+}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
+    padding: 20 px 30 px;
 }
 
 .logo {
     text-transform: uppercase;
-    font-size: 40px; 
+    font-size: 40 px; 
     font-weight: 800;
 }
 
@@ -75,22 +74,22 @@ header nav ul li a{
 header nav ul li.active::after{
     content: '';
     display: block;
-    width: 40px;
-    height: 5px;
+    width: 40 px;
+    height: 5 px;
     background: #DC7000;
-    border-radius: 10px;
+    border-radius: 10 px;
 
 }
 
 header nav ul li:not(.active):not(.btn) a:hover{
-    border-bottom: 5px solid #DC7000;
+    border-bottom: 5 px solid #DC7000;
 
 }
 header nav ul li.btn a,.email.block button{
     background: #DC7000;
-    padding: 9px 17px;
-    border-radius: 5px;
-    transition: all 500ms ease;
+    padding: 9 px 17 px;
+    border-radius: 5 px;
+    transition: all 500 ms ease;
 }
 header nav ul li.btn a:hover,.email.block button:hover{
     background: #954e02;
@@ -98,60 +97,60 @@ header nav ul li.btn a:hover,.email.block button:hover{
 } 
 
 .hero{
-    padding-bottom: 100px;
+    padding-bottom: 100 px;
     position: relative;
 }
 
 .hero--info{
-    width: 530px;
-    padding-top: 70px;
+    width: 530 px;
+    padding-top: 70 px;
 }
 .hero--info h2{
     color: #ed800a;
-    font-size: 20px;
+    font-size: 20 px;
     font-weight: 600;
 
 }
 
 .hero--info h1{
-    font-size: 50px;
-    font-weight: 600px;
+    font-size: 50 px;
+    font-weight: 600 px;
 }
 
 .hero--info p{
-    font-weight:500px;
-    line-height: 170%;
-    margin: 30px 0;
+    font-weight:500 px;
+    line-height: 170 %;
+    margin: 30 px 0;
 }
 
 .hero--info .btn, .hero-about .info .btn{
     background: #DC7000;
     color: #ffffff;
-    border-radius: 50px;
-    padding: 15px 30px;
+    border-radius: 50 px;
+    padding: 15 px 30 px;
     border: 0;
-    transition: all 500ms ease;
+    transition: all 500 ms ease;
 }
 
 .hero--info .btn:hover, .hero-about .info .btn:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale (1.1);
 }
 
 .hero img{
     position: absolute;
-    top: -150px;
+    top: -150 px;
     right: 0;
 
 }
 
 .trending{
-    padding-top: 50px; 
+    padding-top: 50 px; 
 }
 
 .trending h3{
     font-weight: 600;
-    font-size: 31px;
+    font-size: 31 px;
 
 }
 
@@ -159,22 +158,22 @@ header nav ul li.btn a:hover,.email.block button:hover{
     display: inline-block; 
     background: #652e06; 
     color: #ffffff; 
-    padding: 12px 23px;
-    font-size: 16px;
+    padding: 12 px 23 px;
+    font-size: 16 px;
     font-weight: 600;
-    border-radius: 5px; 
+    border-radius: 5 px; 
     text-transform: uppercase; 
     text-align: center;
-    transition: all 0.3s ease;
-    margin: 20px auto; 
+    transition: all 0.3 s ease;
+    margin: 20 px auto; 
     display: flex;
     justify-content: center;
-    width: 150px; 
+    width: 150 px; 
 }
 
 .see-all:hover,.projects.see-all {
     background: #954e02; 
-    transform: scale(1.1); 
+    transform: scale (1.1); 
 }
 
 .trending .games {
@@ -186,13 +185,13 @@ header nav ul li.btn a:hover,.email.block button:hover{
 .trending .games span{
     display: block;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 10 px;
 }
 
 .games {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 20 px;
 }
 
 .game-item {
@@ -203,189 +202,189 @@ header nav ul li.btn a:hover,.email.block button:hover{
 .fire {
     position: absolute;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 30px; 
+    left: 50 %;
+    transform: translateX (-50 %);
+    width: 30 px; 
     height: auto;
 }
 
 .followers {
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 10 px;
+    font-size: 14 px;
     color: #fff;
     font-weight: 600;
 }
 
 .center-text {
     text-align: center; 
-    font-size: 40px; 
+    font-size: 40 px; 
     font-weight: 700; 
-    margin-top: 5px; 
+    margin-top: 5 px; 
 }
 
 .big-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh; 
-    padding-bottom: 60px; 
+    height: 15 vh; 
+    padding-bottom: 60 px; 
 }
 
 .banner{
-    padding: 50px;
-    font-size: 18px;
+    padding: 50 px;
+    font-size: 18 px;
     font-weight: 600;
     color: #ffffff;
     font-weight: 600;
 }
 .banner h3{
-    font-size: 40px;
+    font-size: 40 px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 30 px;
 }
 .banner p{
-    line-height: 170%;
-    margin-bottom: 30px;
-    width:550px;
+    line-height: 170 %;
+    margin-bottom: 30 px;
+    width:550 px;
 }
 
 .banner img{
-    width: 75%;
-    margin-bottom: 25px;
+    width: 75 %;
+    margin-bottom: 20 px;
 }
 
 .features {
     background:url('img/forest.jpg') no-repeat center center fixed;
     background-size: cover;
-    padding: 350px 0;
+    padding: 350 px 0;
     text-align: center;
     color: white;
   }
   
   .features .container {
-    max-width: 1200px;
+    max-width: 1200 px;
     margin: 0 auto;
   }
   
   .features h3,.features p{
    text-align: center;
-    margin-bottom: 20px;
-    max-width: 800px;
+    margin-bottom: 20 px;
+    max-width: 800 px;
     margin-left: auto;
     margin-right: auto;
   }
   
   .features .info {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat (auto-fit, minmax (180 px, 1 fr));
+    gap: 20 px;
   }
   
   .features .block {
     background-color: #2a2a2a;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 20 px;
+    border-radius: 10 px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.3 s ease;
   }
   
   .features .block:hover {
-    transform: translateY(-10px);
+    transform: translateY (-10 px);
   }
   
   .features .block img:first-of-type {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
+    width: 50 px;
+    height: 50 px;
+    margin-bottom: 10 px;
   }
   
   .features .block p {
-    font-size: 1rem;
+    font-size: 1 rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 10 px;
   }
   
   .features .block img:last-of-type {
-    width: 20px;
-    height: 20px;
+    width: 20 px;
+    height: 20 px;
   }
 
   .projects{
-    padding: 200px 0;
+    padding: 200 px 0;
   }
   .projects h3{
-    font-size: 40px;
+    font-size: 40 px;
     text-align: center;
   }
 
 .projects p{
-    margin: 40px 0;
+    margin: 40 px 0;
     text-align: center;
 }
 .projects .images{ 
 display:flex;
 justify-content: space-around;
-margin-bottom: 25px;
+margin-bottom: 25 px;
 }
 .projects.see-all{
     float:none;
-    width: 60px;
+    width: 60 px;
     text-align: center;
     margin: 0 auto;
 }
 
 .email{
-    padding-bottom: 120px;
+    padding-bottom: 120 px;
     
 }
 .email h3{
-    margin-top: 60px;
-    font-size: 30px;
+    margin-top: 60 px;
+    font-size: 30 px;
 }
 .email.block {
-    background-color: rgba(0, 0, 0, 0.5);
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-top: 40px;
-    border-radius: 10px;
-    padding: 25px;
-    width: 98%;
+    background-color: rgba (0, 0, 0, 0.5);
+    background-color: rgba (255, 255, 255, 0.1);
+    margin-top: 40 px;
+    border-radius: 10 px;
+    padding: 25 px;
+    width: 98 %;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .email.block h4 {
-    font-size: 30px;
+    font-size: 30 px;
     font-weight: 500;
 }
 
 .email.block p {
-    width: 500px;
+    width: 500 px;
 }
 
 .email.block input {
     background: #fff;
     outline: none;
     border: 0;
-    border-radius: 5px;
-    width: 380px;
+    border-radius: 5 px;
+    width: 380 px;
     font-family: "Poppins", serif;
     font-weight: 400;
-    padding: 20px 30px;
+    padding: 20 px 30 px;
     color: #000000;
     position: relative;
-    right: -98px;
+    right: -98 px;
     z-index: 1;
-    padding-right: 120px;
+    padding-right: 120 px;
 }
 
 .email.block button{
 cursor: pointer;
 border: 0;
-padding: 15px,16px;
+padding: 15 px,16 px;
 position: relative;
 z-index: 2;
 color: #fff;
@@ -397,33 +396,33 @@ color: #fff;
 }
 
 .hero-about .info{
-    width: 500px;
-    padding: 230px 0;
+    width: 500 px;
+    padding: 230 px 0;
 }
 
 .hero-about .info h1{
-    margin-bottom: 15px;
-    font-size: 30px;
+    margin-bottom: 15 px;
+    font-size: 30 px;
 }
 
 .hero-about .info .btn{
-    margin-top: 20px;
+    margin-top: 20 px;
 }
 
 .hero-about img{
     position: absolute;
-    right: -150px;
+    right: -150 px;
     top: 0;
 
 }
 
 .work{
-    padding: 80px 0;
+    padding: 80 px 0;
 }
 
 .work h2{
-    font-size: 25px;
-    margin-bottom: 40px;
+    font-size: 25 px;
+    margin-bottom: 40 px;
 }
 
 .work .blocks{
@@ -432,21 +431,21 @@ justify-content: space-between;
 }
 
 .work .blocks .block{
-    width: 25%;
-    border-radius: 10px;
-    padding: 50px 35px;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-color: rgba(255, 255, 255, 0.1);
+    width: 25 %;
+    border-radius: 10 px;
+    padding: 50 px 35 px;
+    background-color: rgba (0, 0, 0, 0.5);
+    background-color: rgba (255, 255, 255, 0.1);
 }
 
 .work .blocks .block h3{
-    font-size: 20px;
-    margin: 20px 0;
+    font-size: 20 px;
+    margin: 20 px 0;
 }
 
 .work .blocks .block .badge{
-    border-radius: 7px;
-    padding: 10px 20px;
+    border-radius: 7 px;
+    padding: 10 px 20 px;
 }
 
 .work .blocks .block .badge.purple{
@@ -463,9 +462,9 @@ justify-content: space-between;
 
 .hero-contacts h1{
     text-align: center;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    font-size: 33px;
+    margin-top: 70 px;
+    margin-bottom: 30 px;
+    font-size: 33 px;
 
 }
 
@@ -474,29 +473,29 @@ justify-content: space-between;
 }
 
 .hero-contacts img{
-    width: 70%;
-    margin: 80px 15%;
+    width: 70 %;
+    margin: 80 px 15 %;
 }
 
 .feedback{
-    padding: 70px 0;
+    padding: 70 px 0;
     background: #1C140F;
 }
 
 .feedback h2{
     text-align: center;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 30 px;
 }
 
 .feedback p{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 10 px;
 }
 
 .feedback form{
-    margin: 80px auto;
-    width: 600px;
+    margin: 80 px auto;
+    width: 600 px;
 }
 
 .feedback form .inline{
@@ -505,45 +504,45 @@ justify-content: space-between;
 }
 
 .feedback form .inline> div{
-    width: 50%;
+    width: 50 %;
 }
 
 .feedback form label{
     color: #4F4F4F;
-    font-size: 14px;
+    font-size: 14 px;
 }
 
 .feedback form input,
 .feedback form textarea{
     background: #2c2420;
-    border-radius: 10px;
-    border: 0.6px solid #2c2420;
+    border-radius: 10 px;
+    border: 0.6 px solid #2c2420;
     display: block;
-    width: 90%;
-    padding: 15px 10px;
+    width: 90 %;
+    padding: 15 px 10 px;
     outline: none;
     color: #ffffff;
-    margin-top: 7px;
-    margin-bottom: 20px;
+    margin-top: 7 px;
+    margin-bottom: 20 px;
 }
 
 .feedback form .one-line{
-    width: 96%;
+    width: 96 %;
 }
 .feedback form textarea{
     resize: none;
-    height: 200px;
+    height: 200 px;
 }
 
 .feedback form button{
     background:#DC7000;
-    border-radius: 5px;
+    border-radius: 5 px;
     border: none;
     float: right;
     cursor: pointer;
     color: #ffff;
-    padding: 15px 35px;
-    transition: all 500ms ease;
+    padding: 15 px 35 px;
+    transition: all 500 ms ease;
 }
 
 .feedback form button:hover{
@@ -554,7 +553,7 @@ justify-content: space-between;
 
 footer{
     background: #000000;
-    padding: 80px 0;
+    padding: 80 px 0;
 }
 
 footer .blocks{
@@ -563,26 +562,26 @@ footer .blocks{
 }
 
 footer .blocks p{
-    width: 300px;
-    margin: 15px 0;
+    width: 300 px;
+    margin: 15 px 0;
 }
 
 footer .blocks h4{
     font-weight: 500;
-    font-size: 17px;
+    font-size: 17 px;
 
 }
 footer .blocks ul{
     list-style: none;
 }
 footer .blocks ul li{
-    margin-top: 7px;
+    margin-top: 7 px;
 }
 
 footer hr{
-    margin: 30px 0;
+    margin: 30 px 0;
     border: 0;
-    height: 0.6px;
+    height: 0.6 px;
     background: #ccc
 }
 
@@ -598,18 +597,18 @@ footer >p{
 }
 
 .item {
-    flex: 1 1 300px; 
+    flex: 1 1 300 px; 
 }
 
-@media (max-width: 768px) {
+ @media(max-width: 768 px) {
     .container {
-        width: 100%;
-        padding: 0 20px;
+        width: 100 %;
+        padding: 0 20 px;
     }
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 480 px) {
     .container {
         width: 100%;
         padding: 0 10px;
