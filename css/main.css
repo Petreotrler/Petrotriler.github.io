@@ -29,11 +29,11 @@ img{
 
 }
 
-.container {
-    max-width: 1800px; 
-    width: 90%; 
+.container{
+    width: 1800px;
     margin: 0 auto;
-}
+   
+   }
 
 header{
     display: flex;
@@ -255,7 +255,7 @@ header nav ul li.btn a:hover,.email.block button:hover{
 }
 
 .features {
-    background:url('img/forest.jpg') no-repeat center center fixed;
+    background:url('/img/forest.jpg')no-repeat center center fixed;
     background-size: cover;
     padding: 350px 0;
     text-align: center;
@@ -590,4 +590,88 @@ footer >p{
     text-align: center;
 }
 
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1 1 300px; 
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .menu {
+        display: block;
+    }
+
+    .hero--info h1 {
+        font-size: 30px; 
+    }
+
+    .hero--info p {
+        font-size: 14px; 
+    }
+
+    .hero img {
+        display: none; 
+    }
+
+    .games {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .game-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .email.block {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .email.block input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .hero--info h1 {
+        font-size: 24px;
+    }
+
+    .hero--info p {
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 100%; 
+    }
+
+    .features .info {
+        grid-template-columns: 1fr; 
+    }
+}
 
