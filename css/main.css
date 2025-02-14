@@ -255,7 +255,7 @@ header nav ul li.btn a:hover,.email.block button:hover{
 }
 
 .features {
-    background:url('img/forest.jpg') no-repeat center center fixed;
+   background: url('img/forest.jpg') no-repeat center center fixed;
     background-size: cover;
     padding: 350px 0;
     text-align: center;
